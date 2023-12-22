@@ -6,7 +6,7 @@ pipeline{
                 sh 'pyton3 hello.py'
             }
         }
-		stage("run'){
+		stage("run"){
 		    steps{
 			    sh 'echo "hello world"'
 			}
